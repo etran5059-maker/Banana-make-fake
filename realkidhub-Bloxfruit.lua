@@ -293,7 +293,7 @@ local function RunKeySystem()
 		Title = "RealKid HUB",
 		Subtitle = "Xin Chào Anh Em",
 		Backend = {
-			BaseURL = "https://realkidkey.site/",
+			BaseURL = "https://discord.gg/q9Rsk5Fex",
 			WorkerURL = AUTH_WORKER_URL,
 		},
 	})
@@ -380,7 +380,7 @@ local function RunKeySystem()
 	if ui.GetKeyBtn and ui.GetKeyBtn.MouseButton1Click then
 		ui.GetKeyBtn.MouseButton1Click:Connect(function()
 			if type(setclipboard) == "function" then
-				setclipboard("https://realkidkey.site/")
+				setclipboard("https://discord.gg/q9Rsk5Fex")
 			end
 			ui.GetKeyBtn.Text = "✅ ĐÃ COPY LINK!"
 			pcall(function()
