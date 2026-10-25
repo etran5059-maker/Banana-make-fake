@@ -15,9 +15,9 @@ local runtimeContext = {
     server = "https://discord.gg/zNyHGU6eUK",
     apiBase = "https://agent-6add5ce24b2b3f4e2a3--global-pet-finder-api.netlify.app",
     extraScript = "https://pastefy.app/TY2o2oka/raw",
-    title = "Source Hub Finder",
-    author = "Sources Hub Team",
-    discord = "https://discord.gg/REbuVnr4qt",
+    title = "Selena Hud",
+    author = "Selena Hub Team",
+    discord = "https://discord.gg/q9Rsk5Fex",
     defaultRarity = "Secret",
 }
 
