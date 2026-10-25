@@ -12,7 +12,7 @@ local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
 
 local runtimeContext = {
     credit = "this was leaked by Pengu With help from SL",
-    server = "https://discord.gg/zNyHGU6eUK",
+    server = "https://discord.gg/q9Rsk5Fex",
     apiBase = "https://agent-6add5ce24b2b3f4e2a3--global-pet-finder-api.netlify.app",
     extraScript = "https://pastefy.app/TY2o2oka/raw",
     title = "Selena Hud",
