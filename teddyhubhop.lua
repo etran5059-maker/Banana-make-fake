@@ -29,7 +29,7 @@ local flag = false
 
 local function fn(arg, arg2, arg3)
 	pcall(function()
-		StarterGui:SetCore("SendNotification", { Title = arg or "TEDDY HUB ", Text = arg2 or "", Duration = arg3 or 4 })
+		StarterGui:SetCore("SendNotification", { Title = arg or "SELENA HUB ", Text = arg2 or "", Duration = arg3 or 4 })
 	end)
 end
 
