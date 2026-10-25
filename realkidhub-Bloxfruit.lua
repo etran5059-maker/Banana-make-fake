@@ -204,7 +204,7 @@ local function VerifyAuthTokenRS256(token, responseData, expectedNonce, expected
 	return true
 end
 
-local AUTH_WORKER_URL = "https://webhook.trungdao2k4.workers.dev/"
+local AUTH_WORKER_URL = ""
 local httpRequest = (syn and syn.request) or (http and http.request) or http_request or request
 
 local function RequestKeyAuthorization(inputKey)
@@ -293,7 +293,7 @@ local function RunKeySystem()
 		Title = "RealKid HUB",
 		Subtitle = "Xin Chào Anh Em",
 		Backend = {
-			BaseURL = "https://realkidkey.site/",
+			BaseURL = "",
 			WorkerURL = AUTH_WORKER_URL,
 		},
 	})
